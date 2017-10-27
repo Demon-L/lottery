@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338523EF1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 338523EC1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		338523F01E078733008887A1 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 338523EE1E078733008887A1 /* UIView+SDAutoLayout.m */; };
+		338523F81E08D397008887A1 /* LotteryHttpRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 338523F71E08D397008887A1 /* LotteryHttpRequestTool.m */; };
+		338523FD1E0962EC008887A1 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338523FC1E0962EC008887A1 /* TabBarViewController.m */; };
 		3388C3EC1DFFE96100198591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388C3EB1DFFE96100198591 /* main.m */; };
 		3388C3EF1DFFE96100198591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388C3EE1DFFE96100198591 /* AppDelegate.m */; };
 		3388C3F21DFFE96100198591 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388C3F11DFFE96100198591 /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		3388C3FA1DFFE96100198591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3388C3F81DFFE96100198591 /* LaunchScreen.storyboard */; };
 		3388C4051DFFE96200198591 /* LotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388C4041DFFE96200198591 /* LotteryTests.m */; };
 		3388C4101DFFE96200198591 /* LotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388C40F1DFFE96200198591 /* LotteryUITests.m */; };
+		C6BD544C0537A42DCDAB637B /* libPods-Lottery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C55331B10E5AD850EB29CB12 /* libPods-Lottery.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		338523E71E0784F5008887A1 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		338523E81E0784F5008887A1 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		338523EB1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		338523EC1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		338523ED1E078733008887A1 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		338523EE1E078733008887A1 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		338523F61E08D397008887A1 /* LotteryHttpRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryHttpRequestTool.h; sourceTree = "<group>"; };
+		338523F71E08D397008887A1 /* LotteryHttpRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryHttpRequestTool.m; sourceTree = "<group>"; };
+		338523FB1E0962EC008887A1 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		338523FC1E0962EC008887A1 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		3388C3E71DFFE96100198591 /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3388C3EB1DFFE96100198591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3388C3ED1DFFE96100198591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,9 @@
 		3388C40B1DFFE96200198591 /* LotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3388C40F1DFFE96200198591 /* LotteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryUITests.m; sourceTree = "<group>"; };
 		3388C4111DFFE96200198591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A1A27F5E01A20BC228AB7A /* Pods-Lottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottery/Pods-Lottery.release.xcconfig"; sourceTree = "<group>"; };
+		C55331B10E5AD850EB29CB12 /* libPods-Lottery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lottery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E898602A5149E7965E4C892A /* Pods-Lottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottery/Pods-Lottery.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BD544C0537A42DCDAB637B /* libPods-Lottery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338523E31E06CDCB008887A1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				338523EA1E078722008887A1 /* SDAutoLayout */,
+				338523E91E078525008887A1 /* Header */,
+				338523F11E08D2B6008887A1 /* HttpRequest */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		338523E41E06CDD6008887A1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				338523FA1E0962A4008887A1 /* Tab */,
+				338523F91E09626D008887A1 /* 首页 */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		338523E51E06CDDC008887A1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		338523E61E06CDE9008887A1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		338523E91E078525008887A1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				338523E71E0784F5008887A1 /* Header.h */,
+				338523E81E0784F5008887A1 /* Macro.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		338523EA1E078722008887A1 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				338523EB1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.h */,
+				338523EC1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.m */,
+				338523ED1E078733008887A1 /* UIView+SDAutoLayout.h */,
+				338523EE1E078733008887A1 /* UIView+SDAutoLayout.m */,
+			);
+			name = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		338523F11E08D2B6008887A1 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				338523F61E08D397008887A1 /* LotteryHttpRequestTool.h */,
+				338523F71E08D397008887A1 /* LotteryHttpRequestTool.m */,
+			);
+			name = HttpRequest;
+			sourceTree = "<group>";
+		};
+		338523F91E09626D008887A1 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		338523FA1E0962A4008887A1 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				338523FB1E0962EC008887A1 /* TabBarViewController.h */,
+				338523FC1E0962EC008887A1 /* TabBarViewController.m */,
+			);
+			name = Tab;
+			sourceTree = "<group>";
+		};
 		3388C3DE1DFFE96100198591 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +182,8 @@
 				3388C4031DFFE96200198591 /* LotteryTests */,
 				3388C40E1DFFE96200198591 /* LotteryUITests */,
 				3388C3E81DFFE96100198591 /* Products */,
+				ABE071FA64B2DD49B9273A3A /* Pods */,
+				65DDC0A7F8DAA955A7FEDE7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +200,10 @@
 		3388C3E91DFFE96100198591 /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
+				338523E31E06CDCB008887A1 /* Tools */,
+				338523E41E06CDD6008887A1 /* M */,
+				338523E51E06CDDC008887A1 /* V */,
+				338523E61E06CDE9008887A1 /* C */,
 				3388C3ED1DFFE96100198591 /* AppDelegate.h */,
 				3388C3EE1DFFE96100198591 /* AppDelegate.m */,
 				3388C3F01DFFE96100198591 /* ViewController.h */,
@@ -140,6 +243,23 @@
 			path = LotteryUITests;
 			sourceTree = "<group>";
 		};
+		65DDC0A7F8DAA955A7FEDE7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55331B10E5AD850EB29CB12 /* libPods-Lottery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE071FA64B2DD49B9273A3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E898602A5149E7965E4C892A /* Pods-Lottery.debug.xcconfig */,
+				A5A1A27F5E01A20BC228AB7A /* Pods-Lottery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3388C4141DFFE96200198591 /* Build configuration list for PBXNativeTarget "Lottery" */;
 			buildPhases = (
+				0CDF608CC302D8A969A9F99C /* [CP] Check Pods Manifest.lock */,
 				3388C3E31DFFE96100198591 /* Sources */,
 				3388C3E41DFFE96100198591 /* Frameworks */,
 				3388C3E51DFFE96100198591 /* Resources */,
+				A63698AC5A4719E9B1C6DE9B /* [CP] Embed Pods Frameworks */,
+				8139C385D01B8A81DA3AF571 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +394,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CDF608CC302D8A969A9F99C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8139C385D01B8A81DA3AF571 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottery/Pods-Lottery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63698AC5A4719E9B1C6DE9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottery/Pods-Lottery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3388C3E31DFFE96100198591 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +449,11 @@
 			files = (
 				3388C3F21DFFE96100198591 /* ViewController.m in Sources */,
 				3388C3EF1DFFE96100198591 /* AppDelegate.m in Sources */,
+				338523FD1E0962EC008887A1 /* TabBarViewController.m in Sources */,
+				338523EF1E078733008887A1 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				3388C3EC1DFFE96100198591 /* main.m in Sources */,
+				338523F01E078733008887A1 /* UIView+SDAutoLayout.m in Sources */,
+				338523F81E08D397008887A1 /* LotteryHttpRequestTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +598,7 @@
 		};
 		3388C4151DFFE96200198591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E898602A5149E7965E4C892A /* Pods-Lottery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RHTEK884Q7;
@@ -435,6 +611,7 @@
 		};
 		3388C4161DFFE96200198591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A1A27F5E01A20BC228AB7A /* Pods-Lottery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RHTEK884Q7;
@@ -514,6 +691,7 @@
 				3388C4161DFFE96200198591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3388C4171DFFE96200198591 /* Build configuration list for PBXNativeTarget "LotteryTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +700,7 @@
 				3388C4191DFFE96200198591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3388C41A1DFFE96200198591 /* Build configuration list for PBXNativeTarget "LotteryUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +709,7 @@
 				3388C41C1DFFE96200198591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
